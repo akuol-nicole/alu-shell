@@ -1,0 +1,14 @@
+total 48
+drwxr-xr-x 2 nicole nicole 4096 Sep 26 16:03 .
+drwxr-xr-x 7 nicole nicole 4096 Sep 26 12:16 ..
+-rwxr-xr-x 1 nicole nicole   32 Sep 26 12:18 0-hello_world
+-rw-r--r-- 1 nicole nicole   28 Sep 26 12:44 1-confused_simley
+-rwxr-xr-x 1 nicole nicole   28 Sep 26 12:47 1-confused_smiley
+-rwxr-xr-x 1 nicole nicole   28 Sep 26 12:59 2-hellofile
+-rwxr-xr-x 1 nicole nicole   39 Sep 26 13:03 3-twofiles
+-rwxr-xr-x 1 nicole nicole   29 Sep 26 13:07 4-lastlines
+-rwxr-xr-x 1 nicole nicole   29 Sep 26 14:41 5-firstlines
+-rwxr-xr-x 1 nicole nicole   40 Sep 26 14:50 6-third_line
+-rwxr-xr-x 1 nicole nicole   79 Sep 26 15:51 7-file
+-rwxr-xr-x 1 nicole nicole   36 Sep 26 16:02 8-cwd_state
+-rw-r--r-- 1 nicole nicole    0 Sep 26 16:03 ls_cwd_content

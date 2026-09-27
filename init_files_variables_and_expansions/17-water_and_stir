@@ -1,28 +1,2 @@
 #!/bin/bash
-python3 - << 'PY'
-import os
-bw="water"
-bs="stir."
-bb="bestchol"
-
-def to_dec(s, base):
-    m={c:i for i,c in enumerate(base)}
-    v=0
-    for ch in s:
-        v=v*len(base)+m[ch]
-    return v
-
-def from_dec(n, base):
-    if n==0:
-        return base[0]
-    r=""
-    b=len(base)
-    while n>0:
-        r=base[n % b]+r
-        n//=b
-    return r
-
-w=to_dec(os.environ.get("WATER",""), bw)
-s=to_dec(os.environ.get("STIR",""), bs)
-print(from_dec(w+s, bb))
-PY
+tr 01234567 bestchol <<< $(printf %o $((5#$(tr water 01234 <<< $WATER)+5#$(tr 'stir.' 01234 <<< $STIR))))

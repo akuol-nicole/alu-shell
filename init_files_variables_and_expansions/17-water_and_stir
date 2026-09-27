@@ -1,0 +1,2 @@
+#!/bin/bash
+printf '%s\n' "$(tr '01234567' 'bestchol' <<< "$(printf '%o' $(( $(( 5#$(tr -dc 'water' <<< "$WATER" | tr 'water' '01234') )) + $(( 4#$(tr -dc 'stir' <<< "$STIR" | tr 'stir' '0123') )) )) )")"
